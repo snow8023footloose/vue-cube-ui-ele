@@ -12,7 +12,7 @@
 	          </div>
 	        </div>
 	        <div class="price" :class="{'highlight':totalPrice>0}">￥{{totalPrice}}</div>
-	        <div class="desc">1111另需配送费￥{{deliveryPrice}}元</div>
+	        <div class="desc">另需配送费￥{{deliveryPrice}}元</div>
 	      </div>
 	      <div class="content-right" @click="pay">
 	        <div class="pay" :class="payClass">
